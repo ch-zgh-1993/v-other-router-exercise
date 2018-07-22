@@ -1,6 +1,6 @@
 # v-simple-exercise
 
-> webpack-simple, 自己下去对vue的理解， 按照步骤理解其中每个文件和每个环境的配置，直到项目成为 vue init webpack 的级别。
+> vue router, but there is no vue-router, there is simple router, and connect with third library of router. its also a exercise.
 
 ## Build Setup
 
