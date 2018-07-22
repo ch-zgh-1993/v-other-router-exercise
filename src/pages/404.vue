@@ -1,15 +1,22 @@
 <template>
-    <main-layout>
-        <p>there is no page about this.</p>
-    </main-layout>
+    <div id="404">
+        <h1>{{ error }}</h1>
+    </div>
 </template>
 
 <script>
-    import Main from '../components/no-router/404-component.vue';
-
     export default {
-        components: {
-            Main
+        name: '404',
+        data () {
+            return {
+                error: "page is not found."
+            }
         }
     }
 </script>
+
+<style>
+    h1 {
+        color: red;
+    }
+</style>
