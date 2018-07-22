@@ -18,7 +18,11 @@ const app = new Vue({
       : require('./pages/404.vue')
     }
   },
-  render: h => h(this.ViewComponent)
+  render(h){
+    console.info(this.ViewComponent);
+    return h(this.ViewComponent);
+  },
+  /*render: h => h(this.ViewComponent)*/
   // render: h => h(First)
 });
 

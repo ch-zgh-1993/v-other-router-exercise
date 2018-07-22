@@ -7,5 +7,5 @@
  */
 export default {
     '/first': 'First',
-    '/': 'App'
+    '/': 'Home'
 }
